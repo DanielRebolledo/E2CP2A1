@@ -1,0 +1,207 @@
+*{
+    @import url('https://fonts.googleapis.com/css?family=Roboto:300');
+    
+    margin: 0;
+    padding: 0;
+    
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.main-container{
+    width: 50%;
+    margin: auto;
+/*    background-color: aqua;*/
+}
+header{
+    height: 80px;
+    width: 100%;
+    z-index: 10;
+    position: absolute;
+    
+/*    background-color:chartreuse;*/
+}
+
+.logo{
+    width: 20%;
+    height: 80px;
+    float: left;
+    padding-top: 30px;
+    box-sizing: border-box;
+    
+}
+.logo img{
+    width: 150px;
+}
+nav{
+    width: 80%;
+    height: 80px;
+    float: left;
+    padding-top: 50px;
+    box-sizing: border-box;
+    
+}
+nav ul{
+    text-align: right
+}
+nav ul li{
+    display: inline;
+    margin-left: 30px;
+    
+}
+nav ul li a{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*BANNER*/
+
+#banner{
+    width: 100%;
+    height: 510px;
+    background-image: url(../img/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#banner .titulo{
+    height: 300px;
+/*    background-color: aqua;*/
+}
+#banner .titulo p{
+    font-size: 45px;
+    text-align: center;
+    color: white;
+    padding-top: 140px;
+    font-family: 'Roboto', sans-serif;
+        
+}
+#banner .botones{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#banner .botones ul li{
+    display: inline;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    
+}
+#banner .botones ul li a{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+#banner .bajada{
+    text-align: center;
+    margin-top: 30px;
+}
+#banner .bajada p{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*BOOTCAMP*/
+
+#bootcamp{
+    margin-top: 80px;
+}
+#bootcamp h3{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+#bootcamp p{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#bootcamp img{
+    width: 100%;
+}
+
+/*INFORMACIÓN*/
+
+#informacion{
+    margin: 0;
+    padding: 70px 0px 70px 0px;
+    
+    background-color: #fafafa;
+    border-top: 1px solid rgb(204,204,204);
+    border-bottom: 1px solid rgb(204,204,204);
+}
+#informacion .main-container h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+#informacion .main-container p{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#informacion .main-container a{
+    text-align: center;
+}
+#informacion .main-container .btn{
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    
+}
+#informacion .main-container .btn button{
+    background-color: #337ab7;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+/*FOOTER*/
+footer{
+    font-family: 'Roboto', sans-serif;
+    padding: 100px 0px 100px 0px;
+}
+
+#contacto{
+/*    background-color: aqua;*/
+    width: 40%;
+    float: left;
+}
+#contacto h3{
+    margin-bottom: 10px;
+    
+}
+#contacto ul li a{
+    color: #000;
+}
+
+#suscripcion{
+/*    background-color: chartreuse;*/
+    width: 60%;
+    float: left;
+}
+#suscripcion h3{
+    margin-bottom: 10px;
+}
+#suscripcion .form{
+    margin-top: 10px;
+}
+#suscripcion .form input{
+    padding: 5px;
+}
+#suscripcion .form button{
+    padding: 5px;
+}
+.datos{
+    height: 70px;
+    margin-top: 100px;
+    background-color: #222222;
+}
+.datos h3{
+    color: #fff;
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
